@@ -13,7 +13,7 @@ class MyApp(QWidget):
         self.setWindowTitle("툴팁 나타내기")
         self.setGeometry(300, 300, 600, 300)
 
-        QToolTip.setFont(QFont("SansSerif", 10))
+        # QToolTip.setFont(QFont("SansSerif", 10))
         # self.setToolTip('This is a <b>QWidget</b> widget')
 
         btn = QPushButton("Quit", self)
